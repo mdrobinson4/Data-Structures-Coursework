@@ -1,4 +1,4 @@
-# DSA Coursework
+# Data Structures and Algorithms Coursework
  Contains programming assignments from my Data Structures and Algorithms (CS 201) course, taken at The University of Alabama.
  
 ### Assignment 0
