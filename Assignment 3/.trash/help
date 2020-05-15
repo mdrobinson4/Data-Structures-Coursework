@@ -1,0 +1,7 @@
+as edges are being added, if the edge already exists replace previous edge with it
+
+apparently, set should not have any local includes exept set.h.
+Does that mean that my edge class should be in set???
+----LET'S SEE
+
+Or maybe Lusth has his edge class separate 

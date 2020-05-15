@@ -1,0 +1,94 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+#include <assert.h>
+#include "set.h"
+#include "edge.h"
+#include "da.h"
+#include "real.h"
+
+struct set {
+  DA *da;
+  void (*display)(void *, FILE *);
+  void (*free)(void *);
+};
+
+SET *newSET(void) {
+  SET *s = malloc(sizeof(SET));
+  assert(s != 0);
+  s->da = newDA();
+  s->display = 0;
+  s->free = 0;
+  return s;
+}
+
+void setSETdisplay(SET *s,void (*d)(void *,FILE *)) {
+  setDAdisplay(s->da, d);
+  s->display = d;
+}
+
+void setSETfree(SET *s,void (*d)(void *)) {
+  setDAfree(s->da, d);
+  s->free = d;
+}
+
+int makeSET(SET *d, void *value) {
+  VERTEX *v = newVERTEX(value);
+  //v->index = sizeDA(d->da);
+  setIndex(v, sizeDA(d->da));
+  insertDAback(d->da, v);
+  //return v->index;
+  return getIndex(v);
+}
+
+int findSET(SET *d, int index) {
+  VERTEX *v = getRep(getDA(d->da, index));
+  //return v->index;
+  return getIndex(v);
+}
+
+int unionSET(SET *d,int index1,int index2) {
+  index1 = findSET(d, index1);
+  index2 = findSET(d, index2);
+  return link(getDA(d->da, index1), getDA(d->da, index2));
+}
+
+void displaySET(SET *d,FILE *fp) {
+  for (int i = 0; i < sizeDA(d->da); i++) {
+    VERTEX *v = getDA(d->da, i);
+    fprintf(fp, "%d: ", i);
+    if (v == getParent(v)) {
+      d->display(getValue(v), fp);
+      fprintf(fp, "(%d)\n", getRank(v));
+    }
+    else {
+      while (v != getParent(v)) {
+        d->display(getValue(v), fp);
+        v = getParent(v);
+        fprintf(fp, " ");
+      }
+      d->display(getValue(v), fp);
+      fprintf(fp, "\n");
+    }
+  }
+}
+
+int debugSET(SET *d,int level) {
+  debugDA(d->da, level);
+  return 0;
+}
+
+void freeSET(SET *d) {
+  VERTEX *v = 0;
+  // Free each
+  for (int i = 0; i < sizeDA(d->da); i++) {
+    v = getDA(d->da, i);
+    d->free(getValue(v));  // Free the void * value
+    free(v);            // Free the vertex struct
+  }
+  setDAfree(d->da, 0);
+  freeDA(d->da);        // Free the store
+  free(d);
+}

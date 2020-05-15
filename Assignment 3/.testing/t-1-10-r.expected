@@ -1,0 +1,92 @@
+Value jiw not found.
+0: q(q)X
+1: hvf*(q)L uqf*(q)R
+2: ep(hvf*)L kof(hvf*)R sz(uqf*)L wto(uqf*)R
+3: bh*<2>(ep)L hj(ep)R idz(kof)L n<2>(kof)R rlb(sz)L tx(sz)R wjn(wto)L yo*(wto)R
+4: ad(bh*<2>)L dw(bh*<2>)R gf*(hj)L hs(hj)R =i<5>(idz)L jg*(idz)R lb*(n<2>)L nu*(n<2>)R rd*(rlb)L sf*(rlb)R tm*(tx)L up(tx)R vem*(wjn)L =wrw(wjn)R xwa(yo*)L ywm(yo*)R
+5: =a(ad)L b*<2>(ad)R c(dw)L =dwd(dw)R g(gf*)L =gr(gf*)R =hsu*(hs)R ir(jg*)L k<2>(jg*)R kz(lb*)L le(lb*)R =nf(nu*)L pr(nu*)R rc(rd*)L rk(rd*)R =s(sf*)L =smn(sf*)R tj(tm*)L =tw(tm*)R =u*(up)L =uq*(up)R v<2>(vem*)L w(vem*)R xm*(xwa)L =y<2>(xwa)R =yu(ywm)L zk(ywm)R
+6: ajc(b*<2>)L =bc(b*<2>)R =by*(c)L =cxv*(c)R =ewa*(g)L =ge*(g)R =im*(ir)L =je*(ir)R =kd*(k<2>)R =kw*(kz)L =l*<2>(kz)R =mka*(le)R =p*(pr)L =qxx*(rc)L =rie*(rk)L =t h*(tj)L =ury*(v<2>)L =vj*(w)L xb(xm*)L =xu(xm*)R =z*<2>(zk)L =zwb*(zk)R
+7: =ah*(ajc)L =x*(xb)L
+Duplicates: 12
+Nodes: 82
+Minimum depth: 4
+Maximum depth: 7
+Value shb not found.
+Value bw not found.
+Value ex not found.
+Value o not found.
+Value e not found.
+Value ykz not found.
+Value yg not found.
+Value s not found.
+Value dh not found.
+Value d not found.
+Value box not found.
+Value ya not found.
+Value adc not found.
+Value oz not found.
+Value oy not found.
+Value gu not found.
+Value qi not found.
+Value btm not found.
+Value jem not found.
+Value gh not found.
+Value i x not found.
+Value djw not found.
+Value pts not found.
+0: q(q)X
+1: hvf*(q)L uqf*(q)R
+2: ep(hvf*)L kof(hvf*)R sz(uqf*)L wto(uqf*)R
+3: bh*<2>(ep)L hj<2>(ep)R idz(kof)L n*<2>(kof)R rlb(sz)L tx(sz)R wjn(wto)L yo*(wto)R
+4: b<2>(bh*<2>)L dw(bh*<2>)R gf*(hj<2>)L hs(hj<2>)R =i<5>(idz)L jg*(idz)R lb(n*<2>)L nu(n*<2>)R rd*(rlb)L sf(rlb)R tm*(tx)L up(tx)R vem*(wjn)L =wrw(wjn)R xwa(yo*)L zk(yo*)R
+5: ah*(b<2>)L bc(b<2>)R by*(dw)L =dwd(dw)R g(gf*)L =gr(gf*)R =hsu*(hs)R ir(jg*)L k<2>(jg*)R kz(lb)L le<2>(lb)R nf(nu)L po*(nu)R rc(rd*)L rk(rd*)R =sdd*(sf)L =smn*(sf)R tj(tm*)L =tw(tm*)R =u*(up)L =uq*(up)R v<2>(vem*)L w<2>(vem*)R xm*(xwa)L =y<2>(xwa)R yu(zk)L zwb(zk)R
+6: =ad(ah*)L ajc(ah*)R =bb*(bc)L =bn(by*)L =cxv(by*)R =ewa*(g)L =im*(ir)L =je*(ir)R =jl*(k<2>)L =kd*(k<2>)R =kw*(kz)L =l*<3>(kz)R =mka*(le<2>)R =nq*(nf)R =pj(po*)L =pr(po*)R =qxx*(rc)L =rie*(rk)L =t h*(tj)L =ury*(v<2>)L =vj*(w<2>)L xb(xm*)L =xu(xm*)R =yt*(yu)L =z*<2>(yu)R =zr*(zwb)L
+7: =as*(ajc)R =x*(xb)L
+Duplicates: 16
+Nodes: 86
+Minimum depth: 4
+Maximum depth: 7
+Value y j not found.
+Value ohw not found.
+Value fe not found.
+Value al not found.
+Value f not found.
+Value ie not found.
+Value hoj not found.
+Value s not found.
+Value xuo not found.
+Value xcd not found.
+Value yif not found.
+Value p not found.
+Value xz not found.
+Value jt not found.
+Value zd not found.
+Value al not found.
+Value pm not found.
+Value ju not found.
+Value t not found.
+Value eb not found.
+Value c not found.
+Value s not found.
+Value er not found.
+Value oy not found.
+Value gd not found.
+Value dzy not found.
+Value cs not found.
+Value om not found.
+Value dg not found.
+Value hf not found.
+Value wb not found.
+Value so not found.
+0: q(q)X
+1: hvf*(q)L uqf*(q)R
+2: ep(hvf*)L kof(hvf*)R sz(uqf*)L wto(uqf*)R
+3: bh*<2>(ep)L hj<2>(ep)R jg(kof)L n*<2>(kof)R rlb(sz)L tx(sz)R wjn(wto)L yo*(wto)R
+4: b<2>(bh*<2>)L dw(bh*<2>)R gf*(hj<2>)L hs(hj<2>)R idz*(jg)L k*<3>(jg)R lb(n*<2>)L nu(n*<2>)R rd*(rlb)L sf(rlb)R tm*(tx)L up*(tx)R vem*(wjn)L =wrw(wjn)R xwa(yo*)L zk(yo*)R
+5: ah*(b<2>)L bc(b<2>)R by*(dw)L =dwd(dw)R f(gf*)L =gr(gf*)R =hsu*(hs)R =i<6>(idz*)L ir<2>(idz*)R jl(k*<3>)L =kd(k*<3>)R kz(lb)L md(lb)R nf(nu)L po*(nu)R rc(rd*)L rk(rd*)R =sdd*(sf)L =smn*(sf)R tj(tm*)L tw(tm*)R u(up*)L =uq(up*)R v<2>(vem*)L w(vem*)R xm*(xwa)L =y<2>(xwa)R yu(zk)L zwb(zk)R
+6: =ad(ah*)L ajc(ah*)R =bb*(bc)L bn(by*)L =cxv(by*)R =ewa*(f)L =g*(f)R =im*(ir<2>)L =je*(ir<2>)R =jp*(jl)R =kw*(kz)L =l*<2>(kz)R =le*<2>(md)L =mka*(md)R =nq*(nf)R pj(po*)L =pr(po*)R =qxx*(rc)L =rie*(rk)L =t h*(tj)L =tq*(tw)L =ui*(u)R =ury*(v<2>)L =vj*(w)L xb(xm*)L =xu(xm*)R =yt*(yu)L =z*<2>(yu)R =zr*(zwb)L
+7: =as*(ajc)R =bp*(bn)R =p*(pj)L =x*(xb)L
+Duplicates: 17
+Nodes: 93
+Minimum depth: 4
+Maximum depth: 7

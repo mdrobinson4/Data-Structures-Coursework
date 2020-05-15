@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ $# != 1 ] ; then
+    echo "Usage: repdiff reportFile"
+    exit 1
+fi
+
+awk '/AAAAAAAAAA/{flag=1;next}/BBBBBBBBBB/{flag=0}flag' $1 > unmixed.output
+awk '/CCCCCCCCCC/{flag=1;next}/DDDDDDDDDD/{flag=0}flag' $1 > mixed.output
+diff -s unmixed.output mixed.output
