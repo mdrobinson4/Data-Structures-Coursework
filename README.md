@@ -1,5 +1,5 @@
 # DSA Coursework
- Contains programming assignments from my Data Structures and Algorithms course.
+ Contains programming assignments from my Data Structures and Algorithms (CS 201) course, taken at The University of Alabama.
  
 ### Assignment 0
  Consists of a dynamic array, circular dynamic array, stack, and queue class. The stack class is built upon the dynamic array class, while the queue class is built upon the circular dynamic array class. The language of implementation is Portable C99. Each of the four classes need to be implemented in its own module.
